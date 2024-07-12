@@ -28,7 +28,7 @@ resource "aws_instance" "my_ec2" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-	bucket = "thais_carolainy-it"
+	bucket = "thaiscarolainy"
 	tags = {
 		Name = "ittalent"
 		Environment = "Test"
